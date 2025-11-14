@@ -17,5 +17,5 @@ export function generateClientSeed() {
  * API base URL
  */
 export const API_BASE_URL = process.env.NODE_ENV === 'production' 
-  ? process.env.REACT_APP_API_URL || 'http://localhost:5000'
+  ? process.env.REACT_APP_API_URL || 'https://plinko-bakend-1.onrender.com'
   : 'http://localhost:5000';
